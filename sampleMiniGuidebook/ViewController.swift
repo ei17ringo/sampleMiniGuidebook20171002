@@ -13,11 +13,22 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
     @IBOutlet weak var myTableView: UITableView!
     
-    var areaList = ["Ayala","Moalboal"]
+    var areaList:[String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //ファイルパスを取得（エリア名が格納されているプロパティリスト）
+        let filePath = Bundle.main.path(forResource: "areaList", ofType: "plist")
+        
+        //ファイルの内容を読み込んでディクショナリー型に格納
+        let dic = NSDictionary(contentsOfFile: filePath!)
+        
+        //TableViewで扱いやすい配列の形（エリア名の入ってる配列）を作成
+        for (key,data) in dic! {
+            print(key)
+            areaList.append(key as! String)
+        }
     }
     
     //2.行数決定

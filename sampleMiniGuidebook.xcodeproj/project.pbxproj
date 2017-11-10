@@ -14,6 +14,8 @@
 		19C9A79A1FB40424006BC6F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C9A7981FB40424006BC6F6 /* LaunchScreen.storyboard */; };
 		19C9A7A51FB40424006BC6F6 /* sampleMiniGuidebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9A7A41FB40424006BC6F6 /* sampleMiniGuidebookTests.swift */; };
 		19C9A7B01FB40424006BC6F6 /* sampleMiniGuidebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9A7AF1FB40424006BC6F6 /* sampleMiniGuidebookUITests.swift */; };
+		19C9A7BE1FB54AB4006BC6F6 /* areaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19C9A7BD1FB54AB4006BC6F6 /* areaList.plist */; };
+		19C9A7C01FB557CD006BC6F6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9A7BF1FB557CD006BC6F6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		19C9A7AB1FB40424006BC6F6 /* sampleMiniGuidebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleMiniGuidebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C9A7AF1FB40424006BC6F6 /* sampleMiniGuidebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleMiniGuidebookUITests.swift; sourceTree = "<group>"; };
 		19C9A7B11FB40424006BC6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C9A7BD1FB54AB4006BC6F6 /* areaList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = areaList.plist; sourceTree = "<group>"; };
+		19C9A7BF1FB557CD006BC6F6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				19C9A7961FB40424006BC6F6 /* Assets.xcassets */,
 				19C9A7981FB40424006BC6F6 /* LaunchScreen.storyboard */,
 				19C9A79B1FB40424006BC6F6 /* Info.plist */,
+				19C9A7BD1FB54AB4006BC6F6 /* areaList.plist */,
+				19C9A7BF1FB557CD006BC6F6 /* DetailViewController.swift */,
 			);
 			path = sampleMiniGuidebook;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19C9A79A1FB40424006BC6F6 /* LaunchScreen.storyboard in Resources */,
+				19C9A7BE1FB54AB4006BC6F6 /* areaList.plist in Resources */,
 				19C9A7971FB40424006BC6F6 /* Assets.xcassets in Resources */,
 				19C9A7951FB40424006BC6F6 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C9A7C01FB557CD006BC6F6 /* DetailViewController.swift in Sources */,
 				19C9A7921FB40424006BC6F6 /* ViewController.swift in Sources */,
 				19C9A7901FB40424006BC6F6 /* AppDelegate.swift in Sources */,
 			);

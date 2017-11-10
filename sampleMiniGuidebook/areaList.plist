@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Moalboaleeeeeeee</key>
+	<dict>
+		<key>description</key>
+		<string>アヤラの説明</string>
+		<key>image</key>
+		<string>ayala.png</string>
+		<key>latitude</key>
+		<string>10</string>
+		<key>longitude</key>
+		<string>123</string>
+	</dict>
+	<key>Ayalaaaaaaaa</key>
+	<dict>
+		<key>description</key>
+		<string>アヤラの説明</string>
+		<key>image</key>
+		<string>ayala.png</string>
+		<key>latitude</key>
+		<string>10</string>
+		<key>longitude</key>
+		<string>123</string>
+	</dict>
+</dict>
+</plist>
