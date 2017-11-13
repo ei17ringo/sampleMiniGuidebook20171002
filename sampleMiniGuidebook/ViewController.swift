@@ -13,6 +13,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
     @IBOutlet weak var myTableView: UITableView!
     
+    //選択されたエリア名を保存するメンバ変数
+    var selectedName = ""
+    
+    
     var areaList:[String] = []
     
     override func viewDidLoad() {
@@ -47,6 +51,27 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         //文字を設定したセルを返す
         return cell
+    }
+    
+    //セルがタップされたとき
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        //タップされた行のエリア名を保存
+        selectedName = areaList[indexPath.row]
+        
+        //セグエのidentifierを指定して、画面移動
+        performSegue(withIdentifier: "showDetail", sender: nil)
+    }
+    
+    //セグエを使って画面移動するとき発動
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        //次の画面のインスタンスを取得
+        var dvc = segue.destination as! DetailViewController
+        
+        //次の画面のプロパティにタップされた行のエリア名を渡す
+        dvc.getAreaName = selectedName
+        
     }
     
 

@@ -16,6 +16,8 @@
 		19C9A7B01FB40424006BC6F6 /* sampleMiniGuidebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9A7AF1FB40424006BC6F6 /* sampleMiniGuidebookUITests.swift */; };
 		19C9A7BE1FB54AB4006BC6F6 /* areaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19C9A7BD1FB54AB4006BC6F6 /* areaList.plist */; };
 		19C9A7C01FB557CD006BC6F6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9A7BF1FB557CD006BC6F6 /* DetailViewController.swift */; };
+		19C9A7C41FB95B64006BC6F6 /* ayala.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C9A7C21FB95B64006BC6F6 /* ayala.png */; };
+		19C9A7C51FB95B64006BC6F6 /* moalboal.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C9A7C31FB95B64006BC6F6 /* moalboal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		19C9A7B11FB40424006BC6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19C9A7BD1FB54AB4006BC6F6 /* areaList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = areaList.plist; sourceTree = "<group>"; };
 		19C9A7BF1FB557CD006BC6F6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		19C9A7C21FB95B64006BC6F6 /* ayala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ayala.png; sourceTree = "<group>"; };
+		19C9A7C31FB95B64006BC6F6 /* moalboal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moalboal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		19C9A7831FB40424006BC6F6 = {
 			isa = PBXGroup;
 			children = (
+				19C9A7C11FB93B2B006BC6F6 /* assets */,
 				19C9A78E1FB40424006BC6F6 /* sampleMiniGuidebook */,
 				19C9A7A31FB40424006BC6F6 /* sampleMiniGuidebookTests */,
 				19C9A7AE1FB40424006BC6F6 /* sampleMiniGuidebookUITests */,
@@ -129,6 +134,15 @@
 				19C9A7B11FB40424006BC6F6 /* Info.plist */,
 			);
 			path = sampleMiniGuidebookUITests;
+			sourceTree = "<group>";
+		};
+		19C9A7C11FB93B2B006BC6F6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				19C9A7C21FB95B64006BC6F6 /* ayala.png */,
+				19C9A7C31FB95B64006BC6F6 /* moalboal.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +254,9 @@
 			files = (
 				19C9A79A1FB40424006BC6F6 /* LaunchScreen.storyboard in Resources */,
 				19C9A7BE1FB54AB4006BC6F6 /* areaList.plist in Resources */,
+				19C9A7C41FB95B64006BC6F6 /* ayala.png in Resources */,
 				19C9A7971FB40424006BC6F6 /* Assets.xcassets in Resources */,
+				19C9A7C51FB95B64006BC6F6 /* moalboal.png in Resources */,
 				19C9A7951FB40424006BC6F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = sampleMiniGuidebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleMiniGuidebook;
@@ -449,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = sampleMiniGuidebook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleMiniGuidebook;
